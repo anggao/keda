@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go v0.74.0
 	github.com/Azure/azure-amqp-common-go/v3 v3.1.0
 	github.com/Azure/azure-event-hubs-go/v3 v3.3.6
-	github.com/Azure/azure-sdk-for-go v48.2.2+incompatible
+	github.com/Azure/azure-sdk-for-go v48.2.2+incompatible // indirect
 	github.com/Azure/azure-service-bus-go v0.10.9
 	github.com/Azure/azure-storage-blob-go v0.13.0
 	github.com/Azure/azure-storage-queue-go v0.0.0-20191125232315-636801874cdd
@@ -25,7 +25,7 @@ require (
 	github.com/google/go-cmp v0.5.4
 	github.com/hashicorp/vault/api v1.0.4
 	github.com/imdario/mergo v0.3.11
-	github.com/influxdata/influxdb-client-go/v2 v2.2.1
+	github.com/influxdata/influxdb-client-go/v2 v2.2.2
 	github.com/kubernetes-sigs/custom-metrics-apiserver v0.0.0-20201216091021-1b9fa998bbaa
 	github.com/lib/pq v1.9.0
 	github.com/mitchellh/hashstructure v1.1.0
@@ -46,7 +46,7 @@ require (
 	google.golang.org/grpc v1.35.0
 	k8s.io/api v0.20.2
 	k8s.io/apimachinery v0.20.2
-	k8s.io/apiserver v0.20.2
+	k8s.io/apiserver v0.20.2 // indirect
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	k8s.io/code-generator v0.20.0
 	k8s.io/klog/v2 v2.5.0
